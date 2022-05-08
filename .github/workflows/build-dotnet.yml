@@ -28,7 +28,7 @@ jobs:
       
     - name: Build
       # As configuration you should choose the config you want to build. Ex. Release - Debug
-      run: dotnet build ./console-app/console-app.sln --configuration release --no-restore. 
+      run: dotnet build ./console-app/console-app.sln --configuration Release --no-restore
     
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.2
